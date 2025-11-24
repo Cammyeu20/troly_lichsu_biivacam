@@ -70,7 +70,6 @@ if st.button("🔊 BẬT ÂM THANH (1 lần)"):
 # ======================
 # ⭐ AI TRẢ LỜI LỊCH SỬ
 # ======================
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 from openai import OpenAI
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
